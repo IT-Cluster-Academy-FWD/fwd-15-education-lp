@@ -1,5 +1,57 @@
 body {
+  /* font-family: Roboto;
+    margin: 0;
+  }
 
+  .container {
+    max-width: 1923px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .header {
+    padding: 71px 0 144px 0;
+    background-color: #6F11FF;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+   img{
+       margin-left: 402px;
+   }
+
+   ul.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  ul.navigation > li {
+    margin-left: 58px;
+    margin-right: 100px;
+  }
+
+  ul.navigation > li > a {
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .button-primary {
+    margin-left: 22px;
+    margin-right: 0px;
+    color: #fff;
+    background-color: #ff5f60;
+    border: none;
+    padding: 13px 34px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 22px;*/
 }
 
 /* TODO remove */
@@ -55,10 +107,6 @@ ul.navigation > li {
   margin-left: 41px;
 }
 
-ul.navigation > li :hover{
-    color: #ac200e;
-}
-
 ul.navigation > li > a {
   line-height: 27px;
   color: #a8b9c0;
@@ -96,6 +144,7 @@ header .logo {
   justify-content: flex-start;
   padding-left: 24px;
   margin-left: 27px;
+  border-left: 1px solid #00c6bf;
 }
 
 .container {
@@ -107,24 +156,23 @@ header .logo {
 
 .button-primary {
   margin-left: 22px;
-  margin-right: 22px;
   color: #ffffff;
   background-color: #ff5f60;
   border: none;
   padding: 13px 34px;
   font-size: 15px;
   font-weight: 500;
-  border-radius: 20px;
-
+  border-radius: 22px;
+  cursor: pointer;
+  transition: all 1s;
 }
 
 .button-primary:hover {
-  cursor: pointer;
   background-color: red;
-  
+  padding-top: 20px;
 }
 
-ul.foot-navigation {
+ul.foot_navigation {
   display: flex;
   list-style: none;
   padding: 0;
@@ -132,17 +180,8 @@ ul.foot-navigation {
   align-items: center;
 }
 
-ul.foot-navigation a{
-  text-decoration: none;
-}
-
-ul.foot-navigation > li {
+ul.foot_navigation > li {
   margin-left: 41px;
-  
-}
-
-ul.foot-navigation > li :hover{
-  color: #ac200e;
 }
 
 footer {
