@@ -1,0 +1,129 @@
+html, body {
+    width: 1920px;
+}
+
+.welcome-to-university {
+    width: 1920px;
+}
+
+.welcome-to-university-top {
+    margin-left: 312px;
+    margin-right: 312px;
+    display: flex;
+}
+
+.welcome-to-university-top-left {
+    flex: 1;
+}
+
+.welcome-to-university-top-left .red-box {
+    max-width: 400px;
+    height: 255px;
+    background-color: #ff5f60;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: -210px;
+}
+
+.first-sentence {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    margin: 0px;
+}
+
+.second-sentence {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    margin: 0px;
+    margin-top: 43px;
+    margin-bottom: 14px;
+}
+
+.welcome-to-university-top-left hr {
+    width: 76px;
+    text-align: center;
+}
+
+.welcome-to-university-top-left input {
+    color: #a9a5a5;
+    text-align: center;
+    width: 240px;
+    padding: 15px 31px 15px 31px;
+    border-radius: 23px;
+}
+
+.welcome-to-university-top-right {
+    flex: 1;
+    text-align: center;
+}
+
+.welcome-to-university-top-right p {
+    color: #222222;
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    font-weight: 400;
+}
+
+.welcome-to-university-top-right span {
+    color: #fb8122;
+    font-family: "Poppins - Semi Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.welcome-to-university-top-right ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.welcome-to-university-top-right li {
+    text-decoration: none;
+    display: inline;
+}
+
+.welcome-to-university-bottom {
+    margin-right: 312px;
+    margin-left: 312px;
+    display: flex;
+    margin-top: 219px;
+}
+
+.welcome-to-university-bottom-left {
+    flex: 1;
+}
+
+.welcome-to-university-bottom-right {
+    flex: 1;
+}
+
+.welcome-to-university-bottom-left img {
+    margin-left: -96px
+}
+
+.welcome-to-university-bottom-right h2 {
+    color: #333333;
+    font-family: "Raleway - Semi Bold";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.welcome-to-university-bottom-right p {
+    color: #8c8c8c;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
